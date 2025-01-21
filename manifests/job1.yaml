@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: job12
+  generateName: jobi
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
 spec:
