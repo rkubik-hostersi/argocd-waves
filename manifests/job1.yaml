@@ -9,6 +9,7 @@ spec:
     spec:
       containers:
         - image: ubuntu
+          name: test
           command:
             - "sleep"
             - "120"
